@@ -1,0 +1,64 @@
+/* --------- ABOUT BEGIN --------- */
+.about {
+  background-color: white;
+  //   background-color: indigo;
+}
+.about__row {
+  width: 100%;
+  //   padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: orange;
+  // background-color: white;
+}
+.about__body {
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  // background: #fef0f0;
+  // background: url(/img/about_tul_01.png) left bottom no-repeat,
+  // url(/img/about_lil_01.png) right top no-repeat;
+  // background: url(/img/lil_fon_01.svg) repeat;
+  background-color: $--clr-pink-soft;
+}
+.about__photo {
+  width: 100%;
+  height: auto;
+  padding: 60px 0px;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: nowrap;
+  // justify-items: center;
+  // align-items: center;
+  text-align: center;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  background-position: 50% 0px;
+  background-size: 350px;
+  //   background-blend-mode: color-dodge;
+  //   background-image: linear-gradient(#ef90a536), url(/img/lil_rose_back_02.png);
+  background-image: url(/img/lil_rose_back_02.png);
+  //   background-color: green;
+}
+.about__ava {
+  // display: block;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.about__text {
+  line-height: 30px;
+  max-width: 555px;
+  text-align: center;
+}
+.about__name {
+  padding: 30px 0px;
+  font-family: var(--ff-cursive);
+  font-size: 30px;
+}
+/* --------- ABOUT END --------- */
