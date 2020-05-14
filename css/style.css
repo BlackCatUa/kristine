@@ -166,7 +166,6 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  background-color: orange;
 }
 
 .about__body {
@@ -189,7 +188,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 0px;
   background-size: 350px;
-  background-image: url("/img/lil_rose_back_02.png");
+  background-image: url("img/lil_rose_back_02.png");
 }
 
 .about__ava {
