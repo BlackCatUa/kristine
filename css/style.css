@@ -155,7 +155,7 @@ body {
 /* --------- HEADER END --------- */
 /* --------- MAIN BEGIN --------- */
 .main {
-  background-color: indigo;
+  background-color: white;
 }
 
 .main__row {
@@ -165,7 +165,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   background-color: white;
-  background-color: orange;
 }
 
 .main__column-body {
@@ -175,7 +174,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: olive;
 }
 
 .main__column {
