@@ -15,7 +15,6 @@
 }
 .about__body {
   width: 100%;
-  padding: 15px 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -53,8 +52,9 @@
   border-radius: 50%;
 }
 .about__text {
+  padding: 0px 15px;
   line-height: 30px;
-  max-width: 555px;
+  max-width: 600px;
   text-align: center;
 }
 .about__name {
