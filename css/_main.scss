@@ -1,7 +1,7 @@
 /* --------- MAIN BEGIN --------- */
 .main {
-    background-color: white;
-//   background-color: indigo;
+  background-color: white;
+  //   background-color: indigo;
 }
 .main__row {
   width: 100%;
@@ -10,22 +10,25 @@
   flex-wrap: wrap;
   align-items: center;
   background-color: white;
-//   background-color: orange;
+  //   background-color: orange;
+}
+.main__title {
+  padding-top: 30px;
 }
 .main__column-body {
   // margin-bottom: -400px;
   width: 100%;
-  padding: 30px 0px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-//   background-color: olive;
+  //   background-color: olive;
 }
 .main__column {
   margin: 15px;
   max-width: 310px;
-//   min-width: 260px;
+  //   min-width: 260px;
   padding: 30px;
   position: relative;
   z-index: 3;
