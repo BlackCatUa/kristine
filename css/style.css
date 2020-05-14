@@ -189,11 +189,11 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 0px;
   background-size: 350px;
-  background-image: url("/img/lil_rose_back.png");
+  background-image: url("../img/lil_rose_back.png");
 }
 
 .about__ava {
-  border: 10px solid white;
+  border: 1px solid white;
   border-radius: 50%;
 }
 
