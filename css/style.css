@@ -184,6 +184,7 @@ body {
   width: 100%;
   height: auto;
   padding: 60px 0px;
+  overflow: visible;
   text-align: center;
   background-attachment: local;
   background-repeat: no-repeat;
