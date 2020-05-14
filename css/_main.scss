@@ -24,9 +24,11 @@
 }
 .main__column {
   margin: 15px;
-  max-width: 300px;
-  min-width: 260px;
+  max-width: 310px;
+//   min-width: 260px;
   padding: 30px;
+  position: relative;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -131,7 +133,6 @@
 .column__btn-003 {
   background-color: #ca9868;
 }
-
 .main__grey {
   // margin: 0px -100px;
   width: 100%;
