@@ -43,7 +43,7 @@
   background-size: 350px;
   //   background-blend-mode: color-dodge;
   //   background-image: linear-gradient(#ef90a536), url(/img/lil_rose_back_02.png);
-  background-image: url(/img/lil_rose_back_02.png);
+  background-image: url(./img/lil_rose_back_02.png);
   //   background-color: green;
 }
 .about__ava {
@@ -58,7 +58,8 @@
 }
 .about__name {
   padding: 30px 0px;
-  font-family: var(--ff-cursive);
+  font-family: $--ff-cursive;
   font-size: 30px;
+  text-align: center;
 }
 /* --------- ABOUT END --------- */
