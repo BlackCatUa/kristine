@@ -88,6 +88,7 @@ h6 {
   font-weight: 400;
 }
 
+/* TEST */
 /* --------- STYLE FOR ALL --------- */
 body {
   background-color: #962424;
@@ -188,7 +189,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 0px;
   background-size: 350px;
-  background-image: url(/img/lil_rose_back_02.png);
+  background-image: url(./img/lil_rose_back_02.png);
 }
 
 .about__ava {
@@ -204,8 +205,9 @@ body {
 
 .about__name {
   padding: 30px 0px;
-  font-family: var(--ff-cursive);
+  font-family: "Caveat", cursive;
   font-size: 30px;
+  text-align: center;
 }
 
 /* --------- ABOUT END --------- */
