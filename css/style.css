@@ -239,6 +239,7 @@ body {
   position: fixed;
   border-bottom: 1px solid #e0d9d9;
   background: white;
+  z-index: 9;
 }
 
 .nav__row {
