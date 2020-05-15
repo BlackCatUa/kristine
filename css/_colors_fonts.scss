@@ -17,6 +17,13 @@ $--ff-serif: "PT Serif", serif;
 $--ff-mono: "Montserrat";
 $--ff-cursive: "Caveat", cursive;
 
+%--ff-menu{
+  font-family:$--ff-menu ;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #7e7e7e;
+  text-decoration: none;
+}
 %--hd-title {
   font-family: $--ff-title-2;
   font-size: 30px;

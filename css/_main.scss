@@ -30,8 +30,8 @@
   max-width: 310px;
   //   min-width: 260px;
   padding: 30px;
-  position: relative;
-  z-index: 3;
+  // position: relative;
+  // z-index: 3;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -127,15 +127,15 @@
 .column__btn-003 {
   background-color: #ca9868;
 }
-.main__grey {
-  // margin: 0px -100px;
-  width: 100%;
-  height: 300px;
-  position: absolute;
-  // top: 0px;
-  // z-index: -1;
-  background: rgb(235, 235, 235);
-}
+// .main__grey {
+//   // margin: 0px -100px;
+//   width: 100%;
+//   height: 300px;
+//   position: absolute;
+//   // top: 0px;
+//   // z-index: -1;
+//   background: rgb(235, 235, 235);
+// }
 
 .column__btn a:hover {
   background-color: #e46d86;

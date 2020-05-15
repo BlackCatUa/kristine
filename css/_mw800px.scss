@@ -7,8 +7,20 @@
     width: 100%;
     padding: 0px 20px;
   }
-  @import "hamburger";
-
+  // @import "hamburger";
+  .nav__burger {
+    display: flex;
+    order: 1;
+  }
+  .nav-toggle {
+    display: flex;
+    order: 1;
+  }
+  .hamburger {
+    display: flex;
+    order: 1;
+  }
+  /* --------- LINKS BEGIN --------- */
   .nav__links,
   .nav__links .nav__links-ul,
   .nav__links .nav__social-ul,
@@ -29,7 +41,7 @@
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
-    border-bottom: 1px solid var(--clr-border);
+    border-bottom: 1px solid $--clr-border;
     // background: fuchsia;
   }
   .nav__links-ul {
@@ -64,22 +76,24 @@
     transform: scale(1, 0);
     // background: darkmagenta;
   }
-  .nav-toggle-lable {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-    // background: #84b491;
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    order: 1;
-  }
+
+
+  // .nav-toggle-lable {
+  //   // position: absolute;
+  //   // top: 0;
+  //   // left: 0;
+  //   // right: 0;
+  //   // bottom: 0;
+  //   // background: #84b491;
+  //   display: flex;
+  //   align-items: center;
+  //   font-size: 22px;
+  //   order: 1;
+  // }
   .nav__links .nav__links-ul a {
     width: 100%;
     // height: 100%;
-    border-bottom: 1px solid var(--clr-border);
+    border-bottom: 1px solid $--clr-border;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     transition-delay: 0.25s;
@@ -105,7 +119,7 @@
     flex-direction: row;
     justify-content: center;
     // height: 100%;
-    font-family: var(--ff-menu);
+    font-family: $--ff-menu;
     font-size: small;
     font-weight: 500;
     line-height: 40px;
@@ -132,5 +146,5 @@
     font-size: 1.1em;
   }
 }
-
+/* --------- LINKS END --------- */
 /* --------- MV800PX END --------- */
