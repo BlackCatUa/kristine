@@ -64,16 +64,13 @@
 .column__title {
   width: 100%;
   padding: 15px 0px;
-  font-family: Playfair Display SC;
-  font-style: normal;
-  font-weight: normal;
+  @extend %--ft-title-2;
+  // font-family: Playfair Display SC;
   font-size: 40px;
   color: #945151;
 }
 .column__title span {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $--ff-mono;
   font-size: 30px;
   color: #945151;
 }
@@ -81,9 +78,7 @@
   width: 100%;
   padding-top: 15px;
   padding-bottom: 20px;
-  font-family: Playfair Display SC;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $--ff-title;
   font-size: 44px;
   text-align: center;
   color: #505050;
@@ -104,9 +99,7 @@
 .column__text {
   width: 100%;
   padding: 15px 0px;
-  font-family: var(--ff-text);
-  font-style: normal;
-  font-weight: normal;
+  @extend %--ft-text;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -119,9 +112,7 @@
   width: 100%;
   height: 74px;
   text-transform: uppercase;
-  font-family: Playfair Display SC;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $--ff-title;
   font-size: 18px;
   line-height: 74px;
   text-align: center;

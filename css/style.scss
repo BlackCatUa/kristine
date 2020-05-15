@@ -1,7 +1,7 @@
 @import "reset", "colors_fonts";
-/* TEST */
 /* --------- STYLE FOR ALL --------- */
 body {
+  @extend %--ft-text;
   background-color: rgb(150, 36, 36);
 }
 .wrapper {
@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   background-color: yellow;
 }
@@ -33,11 +33,8 @@ body {
 /* ---------- Title Decor ---------- */
 .title {
   padding: 30px 30px;
-  // display: inline-block;
-  font-family: var(--ff-title);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
+  @extend %--ft-title-2;
+  // font-size: 24px;
   // line-height: 30px;
   text-align: center;
   vertical-align: middle;
@@ -57,8 +54,8 @@ body {
   max-width: 150px;
   height: 1px;
   flex: 1 1;
-  background: $--clr-border;
+  background-color: $--clr-border;
 }
 /* --------- End Title Decor --------- */
 /* --------- STYLE FOR ALL END --------- */
-@import "navigation", "header", "main", "about", "contacts", "footer", "mw570px";
+@import "navigation", "mw800px", "header", "main", "about", "contacts", "footer", "mw570px";

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat|Montserrat|Open+Sans|PT+Serif|Playfair+Display|Playfair+Display+SC|Quicksand|Roboto+Condensed&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Caveat|Montserrat|Open+Sans|PT+Serif|Playfair+Display|Playfair+Display+SC|Quicksand|Roboto+Condensed&display=swap");
+@import "font-face";
 
 $--clr-text: #777777;
 $--clr-title: #525252;
@@ -7,11 +8,42 @@ $--clr-pink-soft: #fef0f0;
 $--clr-green: #84b491;
 $--clr-gold: #ca9868;
 $--clr-border: #e0d9d9;
-// $--clr-border: red; 
 
+$--ff-menu: "Roboto Condensed", sans-serif;
 $--ff-text: "Quicksand", sans-serif;
 $--ff-title: "Playfair Display SC";
+$--ff-title-2: "Playfair Display";
 $--ff-serif: "PT Serif", serif;
-$--ff-menu: "Roboto Condensed", sans-serif;
 $--ff-mono: "Montserrat";
 $--ff-cursive: "Caveat", cursive;
+
+%--hd-title {
+  font-family: $--ff-title-2;
+  font-size: 30px;
+  //   line-height: 60px;
+  color: wite;
+}
+%--ft-text {
+  font-family: $--ff-text;
+  font-size: 16px;
+  color: $--clr-text;
+}
+%--ft-title {
+  font-family: $--ff-title;
+  font-size: 24px;
+  color: $--clr-title;
+}
+%--ft-title-2 {
+  font-family: $--ff-title-2;
+  font-size: 24px;
+  color: $--clr-title;
+}
+%--ft-cursuve {
+  font-family: $--ff-cursive;
+  font-size: 30px;
+  color: $--clr-title;
+}
+// // p,
+// // a {
+// //   @extend %--ft-text;
+// // }

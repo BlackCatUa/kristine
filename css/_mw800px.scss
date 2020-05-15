@@ -1,0 +1,136 @@
+/* --------- MV800PX BEGIN --------- */
+@media screen and (max-width: 800px) {
+  .nav__logo {
+    order: 2;
+  }
+  .nav__logo-img {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  @import "hamburger";
+
+  .nav__links,
+  .nav__links .nav__links-ul,
+  .nav__links .nav__social-ul,
+  .nav__links .nav__links-ul li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav__links {
+    // width: 100%;
+    // height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.99);
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+    border-bottom: 1px solid var(--clr-border);
+    // background: fuchsia;
+  }
+  .nav__links-ul {
+    width: 100%;
+    margin-bottom: 30px;
+    // height: 70%;
+    // background-color: green;
+  }
+  .nav__links-ul li:last-child {
+    display: none;
+  }
+  .nav__links-ul li {
+    max-width: 80%;
+    min-width: 200px;
+    // height: 100%;
+    line-height: 40px;
+    // border-bottom: 1px solid var(--clr-border);
+    // background-color: red;
+  }
+
+  .nav-toggle:checked ~ .nav__links {
+    width: 100%;
+    height: 80vh;
+    // background: rgba(255, 255, 255, 0.85);
+    transform: scale(1, 1);
+    // background: darkmagenta;
+  }
+  .nav-toggle ~ .nav__links {
+    width: 100%;
+    height: 80vh;
+    // background: rgba(255, 255, 255, 0.85);
+    transform: scale(1, 0);
+    // background: darkmagenta;
+  }
+  .nav-toggle-lable {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // background: #84b491;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    order: 1;
+  }
+  .nav__links .nav__links-ul a {
+    width: 100%;
+    // height: 100%;
+    border-bottom: 1px solid var(--clr-border);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    transition-delay: 0.25s;
+  }
+  .nav-toggle:checked ~ .nav__links a {
+    opacity: 1;
+  }
+  .nav__cart-out {
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    order: 3;
+  }
+  .nav__social-ul {
+    width: 100%;
+    margin-top: 40px;
+    // background-color: greenyellow;
+  }
+  .nav__social-ul li {
+    max-width: 80%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // height: 100%;
+    font-family: var(--ff-menu);
+    font-size: small;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    // background-color: red;
+  }
+  .nav__links .nav__social-ul a {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 16px;
+    // padding: 0px 10px;
+  }
+  .nav__social-title {
+    font-size: medium;
+  }
+  .nav__cart-out {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    order: 3;
+  }
+  .header__left p {
+    font-size: 1.1em;
+  }
+}
+
+/* --------- MV800PX END --------- */

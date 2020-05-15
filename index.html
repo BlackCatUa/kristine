@@ -3,26 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/roboto-condensed-v18-latin_cyrillic-regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/quicksand-Regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/playfair-display-sc-v9-latin_cyrillic-regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/playfair-display-v20-latin_cyrillic-regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/montserrat-v14-latin_cyrillic-regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/pt-serif-v11-latin_cyrillic-regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="./fonts/caveat-v7-latin_cyrillic-regular.woff2" crossorigin />
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- <link rel="preload" as="font" type="font/woff2" href="./fonts/muli-v12-latin-regular.woff2" crossorigin />
-    <link rel="preload" as="font" type="font/woff2" href="./fonts/muli-v12-latin-700.woff2" crossorigin /> -->
+    <script src="https://kit.fontawesome.com/721289eb8c.js" crossorigin="anonymous"></script>
     <title>Kris_Site_02</title>
   </head>
   <body>
     <div class="wrapper">
-      <!--- NAV BEGIN --->
+      <!-- - NAV BEGIN --->
       <nav class="nav row__forall">
         <div class="container">
           <div class="nav__row" id="header">
             <div class="nav__logo">
-              <a href="#head"> <img class="nav__logo-img" src="./img/logo_svg.svg" alt="" /></a>
+              <a href="#head"><img class="nav__logo-img" src="./img/logo_svg.svg" alt="" /></a>
             </div>
-            <!-- <div class="nav__menu"> -->
+
             <input class="nav-toggle" type="checkbox" id="nav-toggle" />
-            <label class="nav-toggle-lable" for="nav-toggle">
+            <div class="hamburger"><div></div></div>
+            <!-- <label class="nav-toggle-lable" for="nav-toggle">
               <i class="fas fa-bars"></i>
-              <!-- <span></span> -->
-            </label>
+
+            </label> -->
             <div class="nav__links">
               <ul class="nav__links-ul">
                 <li><a href="#head">ГЛАВНАЯ</a></li>
@@ -46,7 +53,6 @@
             <div class="nav__cart-out">
               <a href="#"><img class="nav__cart-img" src="./img/cart.svg" /></a>
             </div>
-            <!-- </div> -->
           </div>
         </div>
       </nav>
@@ -56,9 +62,9 @@
           <div class="header__row">
             <div class="header__left">
               <div class="header__slogan">
-                <p>Профессиональная косметология <br />у вас дома</p>
-              </div>
-              <div class="header__button">
+                <h1>Профессиональная косметология <br />у вас дома</h1>
+                <!-- </div> -->
+                <!-- <div class="header__button"> -->
                 <button class="header__btn">подробней</button>
               </div>
             </div>
@@ -159,7 +165,7 @@
               </div>
               <div class="about__text">
                 <p>
-                  14 Nullam ac sem nec felis pretium lobortis. Curabitur condimentum malesuada leo, a vehicula quam porta eu. Etiam molestie elementum felis nec suscipit.
+                  Director and owner nullam ac sem nec felis pretium lobortis. Curabitur condimentum malesuada leo, a vehicula quam porta eu. Etiam molestie elementum felis nec suscipit.
                 </p>
               </div>
               <div class="about__name"><p>Kristine Kryzhanivska</p></div>
@@ -219,6 +225,6 @@
         </div>
       </footer>
     </div>
-    <script src="https://kit.fontawesome.com/721289eb8c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/721289eb8c.js" crossorigin="anonymous"></script> -->
   </body>
 </html>

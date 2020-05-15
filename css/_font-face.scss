@@ -1,0 +1,51 @@
+/* --------- FONT FACE BEGIN --------- */
+/* roboto-condensed-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url("../fonts/roboto-condensed-v18-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/roboto-condensed-v18-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* quicksand-regular - latin_cyrillic */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Quicksand Regular"), local("Quicksand-Regular"), url("../fonts/quicksand-Regular.woff2") format("woff2"), url("../fonts/quicksand-Regular.woff") format("woff");
+}
+/* playfair-display-sc-regular - latin_cyrillic */
+@font-face {
+  font-family: "Playfair Display SC";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Playfair Display SC Regular"), local("PlayfairDisplaySC-Regular"), url("../fonts/playfair-display-sc-v9-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/playfair-display-sc-v9-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-regular - latin_cyrillic */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/playfair-display-v20-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/playfair-display-v20-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v14-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/montserrat-v14-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* pt-serif-regular - latin_cyrillic */
+@font-face {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Serif"), local("PTSerif-Regular"), url("../fonts/pt-serif-v11-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/pt-serif-v11-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* caveat-regular - latin_cyrillic */
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Caveat Regular"), local("Caveat-Regular"), url("../fonts/caveat-v7-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/caveat-v7-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* --------- FONT FACE END --------- */

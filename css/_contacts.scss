@@ -26,8 +26,7 @@
   justify-content: flex-start;
   align-items: center;
   flex: 1 1;
-  font-family: var(--ff-text);
-  font-size: 16px;
+  @extend %--ft-text;
   line-height: 40px;
   color: $--clr-text;
   //   background: green;

@@ -9,45 +9,41 @@
   height: auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: flex-start;
-  // background: url("/img/header_lil_01.svg") -70px 0px no-repeat,
-  // url("img/header_logo_background_01.svg") right 30px no-repeat;
+  align-items: flex-end;
   background: url("../img/lil_header_m.png") 20px 0 no-repeat, url("../img/header_logo_background_01.svg") left 30px no-repeat;
-//   background: blue;
+  //   background: blue;
 }
 .header__left {
   width: 100%;
-  min-width: 280px;
+  //   min-width: 280px;
   padding: 0px 15px;
   display: flex;
-  flex: 1 1;
+    flex: 1 1 auto;
   flex-direction: column;
   justify-content: flex-end;
-  // align-items: center;
-  background: brown;
+  align-items: center;
+  // background: brown;
 }
 .header__slogan {
-  width: 100%;
-  // max-width: 357px;
+  // width: 100%;
   display: flex;
-  flex: 1 1;
+  flex-wrap: wrap;
+    // flex: 1 1;
+  // background-color: blue;
 }
-.header__left p {
-  width: 100%;
+.header__left h1 {
+  // width: 100%;
   height: auto;
   margin-top: 30px;
-  font-family: var(--ff-serif);
-  // font-style: normal;
-  // font-weight: normal;
-  // font-variant: normal;
+  @extend %--hd-title;
   // letter-spacing: 1px;
-  font-size: 40px;
-  line-height: 40px;
-  font-size: calc(24px + 14 * (100vw / 1140));
-  // text-align: center;
-  color: var(--clr-title);
+  //   font-size: 40px;
+  //   line-height: 40px;
+  //   font-size: calc(24px + 14 * (100vw / 1140));
+  text-align: left;
+  // color: var(--clr-title);
   text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
   // background-color: purple;
 }
@@ -56,22 +52,23 @@
   padding: 0px 15px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  flex: 1 0;
+    flex: 0 1 auto;
   // border: 1px solid green;
   // background-image: url("img/header_img_01m2.png");
   // background-repeat: no-repeat;
   // background-position: 100% 100%;
   // background-size: auto 100%;
-  background: cyan;
+  // background: cyan;
 }
 .header__image {
   max-width: 300px;
-//   min-width: 280px;
+  //   min-width: 280px;
   height: auto;
   display: flex;
   align-items: flex-end;
-//   vertical-align: bottom;
+  //   vertical-align: bottom;
   flex: 1 1;
   // background-color: green;
 }
@@ -80,8 +77,6 @@
   width: 100%;
   height: auto;
   // background-color: pink;
-}
-.header__button {
 }
 .header__btn {
   width: 200px;
