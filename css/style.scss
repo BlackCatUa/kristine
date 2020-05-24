@@ -26,7 +26,7 @@ body {
 .container {
   width: 100%;
   height: auto;
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
   //   background-color: rgb(36, 150, 36);
 }
@@ -42,13 +42,13 @@ body {
   // background-color: steelblue;
 }
 .title-body {
-  padding-bottom: 15px;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  // background-color: rgba($color: #f7f7f7, $alpha: 1);
 }
 .line {
   max-width: 150px;
